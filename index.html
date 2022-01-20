@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!-- Import for css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Topskill Survey Page</title>
+</head>
+<body>
+    <header>
+        <h1>Reptro Review</h1>
+    </header>
+    <main class='container'>
+        <form id="survey-form">
+            <input 
+                type="text" 
+                name="full-name" 
+                id="full-name" 
+                placeholder="Name"
+                class='form-control'
+            >
+            <input 
+                type="tel" 
+                name="phone" 
+                id="phone" 
+                placeholder="Phone"
+                class='form-control'
+            >
+            <input 
+                type="number" 
+                name="age" 
+                id="age" 
+                placeholder="Age"
+                class='form-control'
+            >
+            <input 
+                type="text" 
+                name="state" 
+                id="state" 
+                placeholder="State"
+                class='form-control'
+            >
+            <textarea
+                type="text" 
+                name="feedback" 
+                id="feedback"
+                placeholder="Why do you like us?"
+                class="form-control"
+                cols="30" 
+                rows="10"
+            ></textarea>
+            <button type="submit" id='btn-submit'>Submit</button>
+        </form>
+    </main>
+</body>
+</html>
